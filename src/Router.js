@@ -27,6 +27,8 @@ const Router = () => {
       <Route path='/HelpPage' element={<HelpPage/>}/>
       {/* финансы */}
       <Route path='/ReportFin' element={<ReportFin/>}/>
+      {/* продажи */}
+      {/* склад */}
     </Routes>
   );
 };
