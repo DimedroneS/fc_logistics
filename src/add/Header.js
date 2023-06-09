@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useState} from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function header() {
     return ( < header >
@@ -7,11 +8,11 @@ export default function header() {
         
          </div > <div className = 'picture' >
          <ul className='menu_lk'>
-            <li href="URL">Моя компания</li>
-            <li>Информация</li>
-            <li>Помощь</li>
-            <li>Рейтинг</li>
-            <li>Профиль</li>
+         <NavLink to='/Company'><li>Моя компания</li></NavLink>
+         <NavLink to='/Inform'><li>Информация</li></NavLink>
+         <NavLink to='/HelpPage'> <li>Помощь </li></NavLink>
+         <NavLink to='/Reitn'> <li>Рейтинг</li></NavLink>
+         <NavLink to='/Profile'><li>Профиль</li></NavLink>
         </ul>
         </div> </header >
     )

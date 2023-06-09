@@ -9,7 +9,13 @@ import RinPostavok from './add/snabzh/RinPostavok';
 import HistoruSnab from './add/snabzh/HistoruSnab';
 import HelpPage from './add/Header_page/HelpPage.js';
 import ReportFin from './Financ/ReportFin.js';
-
+import Vhod from './Proizvod/vhod.js';
+import Komp from './Sklad/komp.js';
+import Riteil from './Prodazhi/Riteil.js';
+import Company from './add/Header_page/Company.js'
+import Inform from './add/Header_page/Inform.js'
+import Reitn from './add/Header_page/Reitn.js';
+import Profile from './add/Header_page/Profile.js';
 
 const Router = () => {
   return (
@@ -23,12 +29,20 @@ const Router = () => {
       <Route path="/RinPostavok" element={<RinPostavok/>}/>
       <Route path="/KPI" element={<Kpi/>}/>
       <Route path="/HistoruSnab" element={<HistoruSnab/>}/>
-      {/* справка */}
+      {/* верхняя панель */}
       <Route path='/HelpPage' element={<HelpPage/>}/>
+      <Route path='/Company' element={<Company/>}/>
+      <Route path='/Inform' element={<Inform/>}/>
+      <Route path='/Reitn' element={<Reitn/>}/>
+      <Route path='/Profile' element={<Profile/>}/>
       {/* финансы */}
       <Route path='/ReportFin' element={<ReportFin/>}/>
       {/* продажи */}
+      <Route path='/Riteil' element={<Riteil/>}/>
       {/* склад */}
+      <Route path='/komp' element={<Komp/>}/>
+      {/* производство */}
+      <Route path='/vhod' element={<Vhod/>}/>
     </Routes>
   );
 };

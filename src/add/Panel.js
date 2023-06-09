@@ -22,7 +22,7 @@ function Panel () {
         Закупки
       </NavLink>
       <NavLink
-        to="/Test"
+        to="/vhod"
         activeClassName="active-link"
         onClick={() => handleButtonClick('Производственная линия')}
         className={activeButton === 'Производственная линия' ? 'button active' : 'button'}
@@ -30,13 +30,13 @@ function Panel () {
       {/* <NavLink to='/MainPanel' activeClassName="active-link"><button className="button">Снабжение</button></NavLink>
       <NavLink to='/Test'  activeClassName="active-link"><button className="button">Операции</button></NavLink> */}
       <NavLink
-        to="/Test"
+        to="/Komp"
         activeClassName="active-link"
         onClick={() => handleButtonClick('Склад')}
         className={activeButton === 'Склад' ? 'button active' : 'button'}
       >Склад</NavLink>
       <NavLink
-        to="/Test"
+        to="/Riteil"
         activeClassName="active-link"
         onClick={() => handleButtonClick('Продажи')}
         className={activeButton === 'Продажи' ? 'button active' : 'button'}
