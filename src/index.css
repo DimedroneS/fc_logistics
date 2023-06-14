@@ -35,6 +35,8 @@ header ul.menu_lk {
     list-style: none;
     position: absolute ;
     left: 250px;
+    text-decoration: none;
+
 }
 
 header ul.menu_lk li {
@@ -44,6 +46,8 @@ header ul.menu_lk li {
     margin-left: 50px;
     cursor: pointer;
     transition: opacity 500ms ease;
+    text-decoration: none;
+
 }
 
 header ul.menu_lk li:hover {
@@ -179,11 +183,24 @@ footer {
     margin-right: 40px;
 }
 
+.nametdS{
+  font-weight:  600;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .sourcetd{
     margin-left: 5px;
     margin-right: 40px;
     margin-top: 15px;
 }
+
+.sourcetdS{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
 
 .cappanel2{
     position: absolute;
@@ -198,7 +215,7 @@ footer {
 }
 
 .separattd{
-    padding-top: 80px;
+    padding-top: 140px;
     padding-left: 10px;
 }
 

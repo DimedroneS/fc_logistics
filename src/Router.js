@@ -16,6 +16,12 @@ import Company from './add/Header_page/Company.js'
 import Inform from './add/Header_page/Inform.js'
 import Reitn from './add/Header_page/Reitn.js';
 import Profile from './add/Header_page/Profile.js';
+import Produkt from './Sklad/produkt.js';
+import UpZapas from './Uprav/UpZapas.js';
+import Prognoz from './Prodazhi/Prognoz.js';
+import Nomenkl from './Prodazhi/Nomenkl.js';
+import UpProizv from './Uprav/UpProizv.js';
+import UpTovar from './Uprav/UpTovar.js';
 
 const Router = () => {
   return (
@@ -39,10 +45,17 @@ const Router = () => {
       <Route path='/ReportFin' element={<ReportFin/>}/>
       {/* продажи */}
       <Route path='/Riteil' element={<Riteil/>}/>
+      <Route path='/Prognoz' element={<Prognoz/>}/>
+      <Route path='/Nomenkl' element={<Nomenkl/>}/>
       {/* склад */}
       <Route path='/komp' element={<Komp/>}/>
+      <Route path='/produkt' element={<Produkt/>}/>
       {/* производство */}
       <Route path='/vhod' element={<Vhod/>}/>
+      {/* управление */}
+      <Route path='/UpZapas' element={<UpZapas/>}/>
+      <Route path='/UpProizv' element={<UpProizv/>}/>
+      <Route path='/UpTovar' element={<UpTovar/>}/>
     </Routes>
   );
 };

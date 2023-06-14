@@ -7,7 +7,6 @@ export default function MainPanel() {
    // git add -A
    // git commit -a -m"_"
    // git remote add origin https://github.com/DimedroneS/fc_logistics.git
-   // push -u origin main
    // git branch -M main
    // git push -u origin main
 

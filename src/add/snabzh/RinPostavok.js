@@ -12,113 +12,103 @@ export default class RinPostavok extends Component {
                 <div className='infopanel'>
                    <table cellSpacing={0} cellPadding={0} colls={6} border={0}>
 
-                      <tbody>
+                   <tbody>
+                        
+                        <tr valign='top' >
 
-                         <tr valign='top'>
                             <td>
-                               <div className='nametd'>Тенденция</div>
+                               <div className='nametd'>КПЭ</div> 
                             </td>
                             <td>
-                               <div className='nametd'>КПЭ</div>
+                               <div className='nametd'></div> 
                             </td>
                             <td>
-                               <div className='nametd'></div>
+                               <div className='nametd'>Ваш результат</div> 
                             </td>
                             <td>
-                               <div className='nametd'>Ваш результат</div>
+                               <div className='nametd'>Лучший результат</div> 
+                            </td>
+                        </tr>
+                        <tr valign='top' >
+
+                            <td>
+                               <div className='sourcetd'>Рентабельность (%)</div> 
                             </td>
                             <td>
-                               <div className='nametd'>Лучший результат</div>
-                            </td>
-                         </tr>
-                         <tr valign='top'>
-                            <td>
-                               <div className='sourcetd'>PIC</div>
+                               <div className='sourcetd'></div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>Рентабельность (%)</div>
+                               <div className='sourcetd'>number</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'></div>
+                               <div className='sourcetd'>number</div> 
+                            </td>
+                        </tr>
+                        <tr valign='top' >
+
+                            <td>
+                               <div className='sourcetd'>Компоненты отбраковки (%)</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div>
+                               <div className='sourcetd'></div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div>
-                            </td>
-                         </tr>
-                         <tr valign='top'>
-                            <td>
-                               <div className='sourcetd'>PIC</div>
+                               <div className='sourcetd'>number</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>Компоненты отбраковки (%)</div>
+                               <div className='sourcetd'>number</div> 
+                            </td>
+                        </tr>
+                        <tr valign='top' >
+
+                            <td>
+                               <div className='sourcetd'>Затраты на сырье (%)</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'></div>
+                               <div className='sourcetd'></div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div>
+                               <div className='sourcetd'>number</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div>
+                               <div className='sourcetd'>number</div> 
                             </td>
-                         </tr>
-                         <tr valign='top'>
+                        </tr>
+                        <tr valign='top' >
+       
                             <td>
-                               <div className='sourcetd'>PIC</div>
-                            </td>
-                            <td>
-                               <div className='sourcetd'>Затраты на сырье (%)</div>
+                               <div className='sourcetd'>Поставщики надежности доставки</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'></div>
+                               <div className='sourcetd'></div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div>
+                               <div className='sourcetd'>number</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div>
+                               <div className='sourcetd'>number</div> 
                             </td>
-                         </tr>
-                         <tr valign='top'>
-                            <td>
-                               <div className='sourcetd'>PIC</div>
-                            </td>
-                            <td>
-                               <div className='sourcetd'>Поставщики надежности доставки</div>
-                            </td>
-                            <td>
-                               <div className='sourcetd'></div>
-                            </td>
-                            <td>
-                               <div className='sourcetd'>number</div>
-                            </td>
-                            <td>
-                               <div className='sourcetd'>number</div>
-                            </td>
-                         </tr>
-                         <tr>
-                            <div className='cappanel2'> Отчет </div>
-                         </tr>
-                         <tr>
+                        </tr>
+                        <tr>
+                        <div className='cappanel2'> Отчет </div >
+                        </tr>
+                        <tr>
                             <div className='separattd'> <a href="URL">Поставщик</a></div>
-                         </tr>
-                         <tr>
+                        </tr>
+                        <tr>
                             <div className='linktd'> <a href="URL">Компоненты</a></div>
-                         </tr>
-                         <tr>
+                        </tr>
+                        <tr>
                             <div className='linktd'> <a href="URL">Финансы</a></div>
-                         </tr>
-                         <tr>
-
-                            <div className='linktd'> <a href='fc_logistics\src\Page\Test.js' target="blank">Анализ</a></div>
-                         </tr>
-                      </tbody>
-                   </table>
-                </div>
-             </div>
+                        </tr>
+                        <tr>
+                           
+                           <div className='linktd'> <a href='fc_logistics\src\Page\Test.js' target="blank">Анализ</a></div>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
              <div className='rightpanel'><div className='cappanel'>
                 Решение <span className='nameround'> RoundName </span>
 
@@ -127,8 +117,8 @@ export default class RinPostavok extends Component {
                 <div className='tabsbuttonlayer'>
                    <Link to='/Soglash'><button className='tabsbutton'>Соглашение</button></Link>
                    <Link to='/RinPostavok'><button className='tabsbuttonON'>Рынок поставщиков</button></Link>
-                   <Link to='/Kpi'><button className='tabsbutton'>KPI</button></Link>
-                   <Link to='/HistoruSnab'><button className='tabsbutton'>История решений</button></Link>
+                   {/* <Link to='/Kpi'><button className='tabsbutton'>KPI</button></Link>
+                   <Link to='/HistoruSnab'><button className='tabsbutton'>История решений</button></Link> */}
                    <button className='tabsbuttonnone'></button></div>
 
 

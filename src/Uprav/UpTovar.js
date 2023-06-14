@@ -2,9 +2,9 @@ import { Button, Modal } from '@mui/material';
 import React, {useState,Component} from 'react'
 import { Link } from 'react-router-dom';
 
-export default function Riteil () {
+export default function UpTovar () {
 
-    return (<riteil>
+    return (<uptovar>
       <div >
          </div ><div className = 'panelcontent' >
             <div className='leftpanel'> <div className='cappanel'> 
@@ -116,9 +116,9 @@ export default function Riteil () {
             </div >
 
             <div className='tabsbuttonlayer' >
-            <Link to='/Riteil'><button className='tabsbuttonON'>Продажи</button></Link>
-                        <Link to='/Nomenkl'><button className='tabsbutton'>Номенклатура</button></Link>
-                        <Link to='/Prognoz'><button className='tabsbutton'>Прогнозирование</button></Link>
+            <Link to='/UpZapas'><button className='tabsbutton'>Управление запасами</button></Link>
+                          <Link to='/UpProizv'><button className='tabsbutton'>Управление производства</button></Link>
+                          <Link to='/UpTovar'><button className='tabsbuttonON'>Управление товаром</button></Link>
                         {/* <Link to='/HistoruSnab'><button className='tabsbutton'>Вкладка</button></Link> */}
                         <button className='tabsbuttonnone'></button></div>
 
@@ -133,7 +133,7 @@ export default function Riteil () {
                                 <div id="content-1">
                         <div className='cont1'>  
                         
-                        <fieldset className='fieldtd'><legend>Переговоры по продажам</legend>
+                        <fieldset className='fieldtd'><legend>Управление запасами товаров</legend>
                             <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
                                             <tr valign='top' >
                                             <td>
@@ -195,6 +195,6 @@ export default function Riteil () {
                                           
                                        </div>
                      
-      </riteil> )
+      </uptovar> )
 
 }

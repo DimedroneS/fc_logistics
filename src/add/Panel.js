@@ -43,10 +43,10 @@ function Panel () {
         className={activeButton === 'Продажи' ? 'button active' : 'button'}
       >Продажи</NavLink>
       <NavLink
-        to="/Riteil"
+        to="/UpZapas"
         activeClassName="active-link"
-        onClick={() => handleButtonClick('Продажи')}
-        className={activeButton === 'Продажи' ? 'button active' : 'button'} //НЕ СДЕЛАНО
+        onClick={() => handleButtonClick('Управление')}
+        className={activeButton === 'Управление' ? 'button active' : 'button'} 
       >Управление</NavLink>
       <NavLink
         to="/ReportFin"

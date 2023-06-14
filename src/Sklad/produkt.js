@@ -2,9 +2,8 @@ import { Button, Modal } from '@mui/material';
 import React, {useState,Component} from 'react'
 import { Link } from 'react-router-dom';
 
-export default function komp() {
-
-    return ( <komp>
+export default function produkt() {
+    return ( <produkt>
         <div >
         </div ><div className = 'panelcontent' >
            <div className='leftpanel'> <div className='cappanel'> 
@@ -116,8 +115,8 @@ export default function komp() {
            </div >
 
            <div className='tabsbuttonlayer' >
-           <Link to='/Komp'><button className='tabsbuttonON'>Склад сырья</button></Link>
-                       <Link to='/Produkt'><button className='tabsbutton'>Склад продукции</button></Link>
+           <Link to='/Komp'><button className='tabsbutton'>Склад сырья</button></Link>
+                       <Link to='/Produkt'><button className='tabsbuttonON'>Склад продукции</button></Link>
                        {/* <Link to='/Kpi'><button className='tabsbutton'>Вкладка</button></Link>
                        <Link to='/HistoruSnab'><button className='tabsbutton'>Вкладка</button></Link> */}
                        <button className='tabsbuttonnone'></button></div>
@@ -133,7 +132,7 @@ export default function komp() {
                                <div id="content-1">
                        <div className='cont1'>  
                        
-                       <fieldset className='fieldtd'><legend>Склад сырья</legend>
+                       <fieldset className='fieldtd'><legend>Склад готовой продукции</legend>
                            <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
                                            <tr valign='top' >
                                            <td>
@@ -196,6 +195,6 @@ export default function komp() {
                                       </div>
                     
 
-                                      </komp>  )
+                                      </produkt>  )
 
 }

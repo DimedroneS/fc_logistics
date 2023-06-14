@@ -21,12 +21,10 @@ export default function vhod() {
             <div className='infopanel'>
                 <table cellSpacing={0} cellPadding={0} colls={6} border={0} >
 
-                    <tbody>
+                <tbody>
                         
                         <tr valign='top' >
-                            <td>
-                               <div className='nametd'>Тенденция</div> 
-                            </td>
+
                             <td>
                                <div className='nametd'>КПЭ</div> 
                             </td>
@@ -41,9 +39,7 @@ export default function vhod() {
                             </td>
                         </tr>
                         <tr valign='top' >
-                            <td>
-                               <div className='sourcetd'>PIC</div> 
-                            </td>
+
                             <td>
                                <div className='sourcetd'>Рентабельность (%)</div> 
                             </td>
@@ -58,9 +54,7 @@ export default function vhod() {
                             </td>
                         </tr>
                         <tr valign='top' >
-                            <td>
-                               <div className='sourcetd'>PIC</div> 
-                            </td>
+
                             <td>
                                <div className='sourcetd'>Компоненты отбраковки (%)</div> 
                             </td>
@@ -75,9 +69,7 @@ export default function vhod() {
                             </td>
                         </tr>
                         <tr valign='top' >
-                            <td>
-                               <div className='sourcetd'>PIC</div> 
-                            </td>
+
                             <td>
                                <div className='sourcetd'>Затраты на сырье (%)</div> 
                             </td>
@@ -92,9 +84,7 @@ export default function vhod() {
                             </td>
                         </tr>
                         <tr valign='top' >
-                            <td>
-                               <div className='sourcetd'>PIC</div> 
-                            </td>
+       
                             <td>
                                <div className='sourcetd'>Поставщики надежности доставки</div> 
                             </td>
