@@ -22,25 +22,32 @@ function Panel () {
         Закупки
       </NavLink>
       <NavLink
-        to="/vhod"
-        activeClassName="active-link"
-        onClick={() => handleButtonClick('Производственная линия')}
-        className={activeButton === 'Производственная линия' ? 'button active' : 'button'}
-      >Производственная линия</NavLink>
-      {/* <NavLink to='/MainPanel' activeClassName="active-link"><button className="button">Снабжение</button></NavLink>
-      <NavLink to='/Test'  activeClassName="active-link"><button className="button">Операции</button></NavLink> */}
-      <NavLink
         to="/Komp"
         activeClassName="active-link"
         onClick={() => handleButtonClick('Склад')}
         className={activeButton === 'Склад' ? 'button active' : 'button'}
       >Склад</NavLink>
       <NavLink
+        to="/vhod"
+        activeClassName="active-link"
+        onClick={() => handleButtonClick('Производственная линия')}
+        className={activeButton === 'Производственная линия' ? 'button active' : 'button'}
+      >Производство</NavLink>
+      {/* <NavLink to='/MainPanel' activeClassName="active-link"><button className="button">Снабжение</button></NavLink>
+      <NavLink to='/Test'  activeClassName="active-link"><button className="button">Операции</button></NavLink> */}
+      
+      <NavLink
         to="/Riteil"
         activeClassName="active-link"
         onClick={() => handleButtonClick('Продажи')}
         className={activeButton === 'Продажи' ? 'button active' : 'button'}
       >Продажи</NavLink>
+      <NavLink
+        to="/Riteil"
+        activeClassName="active-link"
+        onClick={() => handleButtonClick('Продажи')}
+        className={activeButton === 'Продажи' ? 'button active' : 'button'} //НЕ СДЕЛАНО
+      >Управление</NavLink>
       <NavLink
         to="/ReportFin"
         activeClassName="active-link"

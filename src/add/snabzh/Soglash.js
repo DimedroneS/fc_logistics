@@ -29,10 +29,10 @@ export default function Soglash() {
      setRedact1(false);
    };
  
-   const redact1 = () => {
-     // Действия при нажатии кнопки "Ок"
-     redactClose1();
-   };
+   // const redact1 = () => {
+   //   // Действия при нажатии кнопки "Ок"
+   //   redactClose1();
+   // };
 
 
 
@@ -1256,9 +1256,9 @@ export default function Soglash() {
                                             
                                             </table>
             <div className="modal__buttons">
-              <Button className='modalbut' variant="contained" onClick={redact1}>
+              {/* <Button className='modalbut' variant="contained" onClick={redact1}>
                 Подсчитать
-              </Button>
+              </Button> */}
               <Button  variant="contained" onClick={redactClose1}>
                 Согласие
               </Button>
