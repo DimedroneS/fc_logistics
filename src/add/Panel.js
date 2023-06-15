@@ -28,7 +28,7 @@ function Panel () {
         className={activeButton === 'Склад' ? 'button active' : 'button'}
       >Склад</NavLink>
       <NavLink
-        to="/vhod"
+        to="/Smesh"
         activeClassName="active-link"
         onClick={() => handleButtonClick('Производственная линия')}
         className={activeButton === 'Производственная линия' ? 'button active' : 'button'}

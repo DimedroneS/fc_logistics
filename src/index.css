@@ -47,6 +47,7 @@ header ul.menu_lk li {
     cursor: pointer;
     transition: opacity 500ms ease;
     text-decoration: none;
+    color: #000000;
 
 }
 
@@ -544,4 +545,11 @@ footer {
   font-size: 16px;
   width: 1280px;
   height: 810px;
+}
+
+.content {
+  display: none;
+  margin-top: 80px;
+    margin-left: 4px;
+  /* Стили для контента */
 }

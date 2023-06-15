@@ -1,8 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import {} from '@mui/material'
 import { Link } from 'react-router-dom';
-export default class RinPostavok extends Component {
-  render() {
+
+
+ 
+
+export default function RinPostavok() {
+
+
+
     return (
         <><div>
        </div><div className='panelcontent'>
@@ -139,13 +145,13 @@ export default class RinPostavok extends Component {
                                                          </td>
                                                          <td>
                                                             <div>
-                                                            <select className='postavki'>
-                                                            <option>Молоко сырое</option>
-                                                            <option>Упаковка</option>
-                                                            <option>Молоко Сухое</option>
-                                                            <option>Вкусовые добавки</option>
-                                                            <option>Сахар</option>
-                                                            <option>PET</option>
+                                                            <select className='postavki' >
+                                                            <option value="item1">Молоко сырое</option>
+                                                            <option value="item2">Упаковка</option>
+                                                            <option value="item3">Молоко Сухое</option>
+                                                            <option value="item4">Вкусовые добавки</option>
+                                                            <option value="item5">Сахар</option>
+                                                            <option value="item6">PET</option>
                                                             </select>
                                                             </div>
                                                          </td>
@@ -155,11 +161,17 @@ export default class RinPostavok extends Component {
                                                          <div className='contd'title=''></div> 
                                                          </td>
                                                          <td>
-                                                         <div className='contd'><button class="talkbut">Поиск</button></div>
+                                                         <div className='contd'><button class="talkbut" >Поиск</button></div>
                                                          </td>
                                                          </tr>
                                           </table>
+
+                                          
+
+
                                        </fieldset>
+
+
                                        </div>
 
 
@@ -184,4 +196,4 @@ export default class RinPostavok extends Component {
 
     )
   }
-}
+

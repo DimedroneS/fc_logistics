@@ -22,6 +22,10 @@ import Prognoz from './Prodazhi/Prognoz.js';
 import Nomenkl from './Prodazhi/Nomenkl.js';
 import UpProizv from './Uprav/UpProizv.js';
 import UpTovar from './Uprav/UpTovar.js';
+import Smesh from './Proizvod/Smesh.js';
+import Rozliv from './Proizvod/Rozliv.js';
+
+
 
 const Router = () => {
   return (
@@ -51,7 +55,9 @@ const Router = () => {
       <Route path='/komp' element={<Komp/>}/>
       <Route path='/produkt' element={<Produkt/>}/>
       {/* производство */}
-      <Route path='/vhod' element={<Vhod/>}/>
+      {/* <Route path='/vhod' element={<Vhod/>}/> */}
+      <Route path='/Smesh' element={<Smesh/>}/>
+      <Route path='/Rozliv' element={<Rozliv/>}/>
       {/* управление */}
       <Route path='/UpZapas' element={<UpZapas/>}/>
       <Route path='/UpProizv' element={<UpProizv/>}/>
