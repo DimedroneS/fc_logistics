@@ -415,6 +415,12 @@ footer {
     margin-left: 4px;
   }
 
+  .fieldtdR{
+    display: table;
+    margin-top: 40px;
+    margin-left: 4px;
+  }
+
   .buttonlog {
     width: 50px;
     height: 50px;
@@ -552,4 +558,18 @@ footer {
   margin-top: 80px;
     margin-left: 4px;
   /* Стили для контента */
+}
+
+.selectspis{
+  width: 560;
+  height: 400;
+  background-color: #000000;
+}
+
+.contentTabO{
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 580;
+  height: 400;
 }
