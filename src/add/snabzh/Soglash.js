@@ -169,7 +169,7 @@ export default function Soglash() {
                             <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
+                                             <div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -177,7 +177,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
+                                             <div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -185,7 +185,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
+                                             <div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -193,7 +193,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
+                                             <div className='contd' title=''>Свободные мощности (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -201,7 +201,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
+                                             <div className='contd'title=''>Сертификация</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -209,7 +209,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вид транспорта</div> </Link>
+                                             <div className='contd'title=''>Вид транспорта</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -217,7 +217,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Грузовая единица, л</div> </Link>
+                                             <div className='contd' title=''>Грузовая единица, л</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -225,7 +225,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Согласованная надежность доставки (%)</div> </Link>
+                                             <div className='contd'title=''>Согласованная надежность доставки (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -233,7 +233,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Качество сырья</div> </Link>
+                                             <div className='contd'title=''>Качество сырья</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -241,7 +241,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Условия поставки</div> </Link>
+                                             <div className='contd'title=''>Условия поставки</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -249,7 +249,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Начало цикла оплаты</div> </Link>
+                                             <div className='contd'title=''>Начало цикла оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -257,7 +257,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Период оплаты</div> </Link>
+                                             <div className='contd'title=''>Период оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -276,7 +276,7 @@ export default function Soglash() {
                                                          
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Развитие поставщика</div> </Link>
+                                                          <div className='contd'title=''>Развитие поставщика</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -284,7 +284,7 @@ export default function Soglash() {
                                                          </tr>
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>VMI с поставщиками</div> </Link>
+                                                          <div className='contd'title=''>VMI с поставщиками</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -302,7 +302,7 @@ export default function Soglash() {
 
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вступить в переговоры</div> </Link>
+                                             <div className='contd'title=''>Вступить в переговоры</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -318,7 +318,7 @@ export default function Soglash() {
                             <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
+                                             <div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -326,7 +326,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
+                                             <div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -334,7 +334,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
+                                             <div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -342,7 +342,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
+                                             <div className='contd' title=''>Свободные мощности (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -350,7 +350,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
+                                             <div className='contd'title=''>Сертификация</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -358,7 +358,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вид транспорта</div> </Link>
+                                             <div className='contd'title=''>Вид транспорта</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -366,7 +366,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Грузовая единица, л</div> </Link>
+                                             <div className='contd' title=''>Грузовая единица, л</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -374,7 +374,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Согласованная надежность доставки (%)</div> </Link>
+                                             <div className='contd'title=''>Согласованная надежность доставки (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -382,7 +382,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Качество сырья</div> </Link>
+                                             <div className='contd'title=''>Качество сырья</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -390,7 +390,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Условия поставки</div> </Link>
+                                             <div className='contd'title=''>Условия поставки</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -398,7 +398,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Начало цикла оплаты</div> </Link>
+                                             <div className='contd'title=''>Начало цикла оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -406,7 +406,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Период оплаты</div> </Link>
+                                             <div className='contd'title=''>Период оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -425,7 +425,7 @@ export default function Soglash() {
                                                          
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Развитие поставщика</div> </Link>
+                                                          <div className='contd'title=''>Развитие поставщика</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -433,7 +433,7 @@ export default function Soglash() {
                                                          </tr>
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>VMI с поставщиками</div> </Link>
+                                                          <div className='contd'title=''>VMI с поставщиками</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -451,7 +451,7 @@ export default function Soglash() {
 
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вступить в переговоры</div> </Link>
+                                             <div className='contd'title=''>Вступить в переговоры</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -466,7 +466,7 @@ export default function Soglash() {
                             <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
+                                             <div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -474,7 +474,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
+                                             <div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -482,7 +482,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
+                                             <div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -490,7 +490,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
+                                             <div className='contd' title=''>Свободные мощности (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -498,7 +498,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
+                                             <div className='contd'title=''>Сертификация</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -506,7 +506,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вид транспорта</div> </Link>
+                                             <div className='contd'title=''>Вид транспорта</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -514,7 +514,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Грузовая единица, л</div> </Link>
+                                             <div className='contd' title=''>Грузовая единица, л</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -522,7 +522,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Согласованная надежность доставки (%)</div> </Link>
+                                             <div className='contd'title=''>Согласованная надежность доставки (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -530,7 +530,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Качество сырья</div> </Link>
+                                             <div className='contd'title=''>Качество сырья</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -538,7 +538,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Условия поставки</div> </Link>
+                                             <div className='contd'title=''>Условия поставки</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -546,7 +546,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Начало цикла оплаты</div> </Link>
+                                             <div className='contd'title=''>Начало цикла оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -554,7 +554,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Период оплаты</div> </Link>
+                                             <div className='contd'title=''>Период оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -573,7 +573,7 @@ export default function Soglash() {
                                                          
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Развитие поставщика</div> </Link>
+                                                          <div className='contd'title=''>Развитие поставщика</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -581,7 +581,7 @@ export default function Soglash() {
                                                          </tr>
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>VMI с поставщиками</div> </Link>
+                                                          <div className='contd'title=''>VMI с поставщиками</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -599,7 +599,7 @@ export default function Soglash() {
 
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вступить в переговоры</div> </Link>
+                                             <div className='contd'title=''>Вступить в переговоры</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -614,7 +614,7 @@ export default function Soglash() {
                             <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
+                                             <div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -622,7 +622,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
+                                             <div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -630,7 +630,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
+                                             <div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -638,7 +638,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
+                                             <div className='contd' title=''>Свободные мощности (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -646,7 +646,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
+                                             <div className='contd'title=''>Сертификация</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -654,7 +654,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вид транспорта</div> </Link>
+                                             <div className='contd'title=''>Вид транспорта</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -662,7 +662,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Грузовая единица, л</div> </Link>
+                                             <div className='contd' title=''>Грузовая единица, л</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -670,7 +670,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Согласованная надежность доставки (%)</div> </Link>
+                                             <div className='contd'title=''>Согласованная надежность доставки (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -678,7 +678,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Качество сырья</div> </Link>
+                                             <div className='contd'title=''>Качество сырья</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -686,7 +686,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Условия поставки</div> </Link>
+                                             <div className='contd'title=''>Условия поставки</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -694,7 +694,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Начало цикла оплаты</div> </Link>
+                                             <div className='contd'title=''>Начало цикла оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -702,7 +702,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Период оплаты</div> </Link>
+                                             <div className='contd'title=''>Период оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -721,7 +721,7 @@ export default function Soglash() {
                                                          
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Развитие поставщика</div> </Link>
+                                                          <div className='contd'title=''>Развитие поставщика</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -729,7 +729,7 @@ export default function Soglash() {
                                                          </tr>
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>VMI с поставщиками</div> </Link>
+                                                          <div className='contd'title=''>VMI с поставщиками</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -747,7 +747,7 @@ export default function Soglash() {
 
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вступить в переговоры</div> </Link>
+                                             <div className='contd'title=''>Вступить в переговоры</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -762,7 +762,7 @@ export default function Soglash() {
                             <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
+                                             <div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -770,7 +770,15 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
+                                             <div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> 
+                                             </td>
+                                            <td>
+                                            <div className='contd'>value</div> 
+                                            </td>
+                                            </tr>
+                                            <tr valign='top' >
+                                            <td>
+                                             <div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -778,7 +786,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
+                                             <div className='contd' title=''>Свободные мощности (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -786,7 +794,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
+                                             <div className='contd'title=''>Сертификация</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -794,7 +802,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
+                                             <div className='contd'title=''>Вид транспорта</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -802,7 +810,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вид транспорта</div> </Link>
+                                             <div className='contd' title=''>Грузовая единица, л</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -810,7 +818,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Грузовая единица, л</div> </Link>
+                                             <div className='contd'title=''>Согласованная надежность доставки (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -818,7 +826,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Согласованная надежность доставки (%)</div> </Link>
+                                             <div className='contd'title=''>Качество сырья</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -826,7 +834,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Качество сырья</div> </Link>
+                                             <div className='contd'title=''>Условия поставки</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -834,7 +842,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Условия поставки</div> </Link>
+                                             <div className='contd'title=''>Начало цикла оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -842,15 +850,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Начало цикла оплаты</div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Период оплаты</div> </Link>
+                                             <div className='contd'title=''>Период оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -869,7 +869,7 @@ export default function Soglash() {
                                                          
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Развитие поставщика</div> </Link>
+                                                          <div className='contd'title=''>Развитие поставщика</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -877,7 +877,7 @@ export default function Soglash() {
                                                          </tr>
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>VMI с поставщиками</div> </Link>
+                                                          <div className='contd'title=''>VMI с поставщиками</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -895,7 +895,7 @@ export default function Soglash() {
 
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вступить в переговоры</div> </Link>
+                                             <div className='contd'title=''>Вступить в переговоры</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -910,7 +910,7 @@ export default function Soglash() {
                             <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
+                                             <div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -918,7 +918,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
+                                             <div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -926,7 +926,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
+                                             <div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -934,7 +934,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
+                                             <div className='contd' title=''>Свободные мощности (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -942,7 +942,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
+                                             <div className='contd'title=''>Сертификация</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -950,7 +950,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вид транспорта</div> </Link>
+                                             <div className='contd'title=''>Вид транспорта</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -958,7 +958,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Грузовая единица, л</div> </Link>
+                                             <div className='contd' title=''>Грузовая единица, л</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -966,7 +966,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Согласованная надежность доставки (%)</div> </Link>
+                                             <div className='contd'title=''>Согласованная надежность доставки (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -974,7 +974,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Качество сырья</div> </Link>
+                                             <div className='contd'title=''>Качество сырья</div>
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -982,7 +982,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Условия поставки</div> </Link>
+                                             <div className='contd'title=''>Условия поставки</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -990,7 +990,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Начало цикла оплаты</div> </Link>
+                                             <div className='contd'title=''>Начало цикла оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -998,7 +998,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Период оплаты</div> </Link>
+                                             <div className='contd'title=''>Период оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>value</div> 
@@ -1017,7 +1017,7 @@ export default function Soglash() {
                                                          
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Развитие поставщика</div> </Link>
+                                                          <div className='contd'title=''>Развитие поставщика</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -1025,7 +1025,7 @@ export default function Soglash() {
                                                          </tr>
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>VMI с поставщиками</div> </Link>
+                                                          <div className='contd'title=''>VMI с поставщиками</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>value</div> 
@@ -1043,7 +1043,7 @@ export default function Soglash() {
 
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вступить в переговоры</div> </Link>
+                                             <div className='contd'title=''>Вступить в переговоры</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -1096,7 +1096,7 @@ export default function Soglash() {
           <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
           <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Вид транспорта</div> </Link>
+                                             <div className='contd'title=''>Вид транспорта</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -1111,7 +1111,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Грузовая единица, л</div> </Link>
+                                             <div className='contd' title=''>Грузовая единица, л</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -1127,7 +1127,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Согласованная надежность доставки (%)</div> </Link>
+                                             <div className='contd'title=''>Согласованная надежность доставки (%)</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -1137,7 +1137,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Качество сырья</div> </Link>
+                                             <div className='contd'title=''>Качество сырья</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -1153,7 +1153,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Условия поставки</div> </Link>
+                                             <div className='contd'title=''>Условия поставки</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -1167,7 +1167,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Начало цикла оплаты</div> </Link>
+                                             <div className='contd'title=''>Начало цикла оплаты</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -1182,7 +1182,7 @@ export default function Soglash() {
                                             </tr>
                                             <tr valign='top' >
                                             <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Период оплаты, дн</div> </Link>
+                                             <div className='contd'title=''>Период оплаты, дн</div> 
                                             </td>
                                             <td>
                                             <div className='contd'>
@@ -1207,7 +1207,7 @@ export default function Soglash() {
 
                                             <tr valign='top' >
                                              <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Развитие поставщика</div> </Link>
+                                                          <div className='contd'title=''>Развитие поставщика</div> 
                                                          </td>
                                                          <td>
                                                          <div className='contd'>
@@ -1221,7 +1221,7 @@ export default function Soglash() {
                                                          </tr>
                                                          <tr valign='top' >
                                                          <td>
-                                                         <Link to="/HelpPage" className='helplink'><div className='contd'title=''>VMI с поставщиками</div> </Link>
+                                                          <div className='contd'title=''>VMI с поставщиками</div> 
                                                          </td>
                                                          <td>
                                             <div className='contd'>

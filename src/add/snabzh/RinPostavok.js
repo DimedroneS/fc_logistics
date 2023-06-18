@@ -979,7 +979,7 @@ export default function RinPostavok() {
                      <div className='contd' title='Наименование поставщика.  '>Название</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>ТМ "Сироп Классик"</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -987,7 +987,7 @@ export default function RinPostavok() {
                      <div className='contd' title='Регион где находиться поставщик.  '>Регион расположения</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Московская область (2500 км)</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -995,7 +995,7 @@ export default function RinPostavok() {
                      <div className='contd' title='Качество поставляемых материалов'>Срок отгрузки </div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>4</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1003,7 +1003,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Свободные мощности (%)</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>15</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1011,7 +1011,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Сертификация ISO</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Нет</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1019,15 +1019,15 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Вид транспорта</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Авиа/ Авто/ ЖД</div>
                   </td>
                </tr>
                <tr valign='top'>
                   <td>
-                     <div className='contd' title=''>Грузовая единица, л</div>
+                     <div className='contd' title=''>Грузовая единица</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Коробка/ Паллет/ Контейнер/ FTL</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1035,7 +1035,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Согласованная надежность доставки (%)</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>От 70 до 100</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1043,7 +1043,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Качество сырья</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Высокое/ Среднее/Низкое</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1051,7 +1051,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Условия поставки</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>CPT, FCA</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1059,7 +1059,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Начало цикла оплаты</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Заказ/ Отгрузка/ Получение/ Продажа</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1067,7 +1067,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Период оплаты, дн</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>От 0 до 90</div>
                   </td>
                </tr>
 
@@ -1098,7 +1098,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Наименование поставщика.  '>Название</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>ООО "Кэнди Фрут"</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1106,7 +1106,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Регион где находиться поставщик.  '>Регион расположения</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Омская область (700 км)</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1114,7 +1114,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Качество поставляемых материалов'>Срок отгрузки </div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>5</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1122,7 +1122,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Свободные мощности (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>5</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1130,7 +1130,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Сертификация ISO</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Нет</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1138,15 +1138,15 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Вид транспорта</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Авто/ ЖД</div>
                      </td>
                   </tr>
                   <tr valign='top'>
                      <td>
-                        <div className='contd' title=''>Грузовая единица, л</div>
+                        <div className='contd' title=''>Грузовая единица</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Коробка/ Паллет/ Контейнер/ FTL</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1154,7 +1154,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Согласованная надежность доставки (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 70 до 100</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1162,7 +1162,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Качество сырья</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Высокое/ Среднее/Низкое</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1170,7 +1170,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Условия поставки</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>CPT, FCA</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1178,7 +1178,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Начало цикла оплаты</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Заказ/ Отгрузка/ Получение/ Продажа</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1186,7 +1186,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Период оплаты, дн</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 0 до 90</div>
                      </td>
                   </tr>
 
@@ -1217,7 +1217,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Наименование поставщика.  '>Название</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Magic Flavors</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1225,7 +1225,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Регион где находиться поставщик.  '>Регион расположения</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Турция (4300 км)</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1233,7 +1233,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Качество поставляемых материалов'>Срок отгрузки </div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>3</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1241,7 +1241,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Свободные мощности (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>30</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1249,7 +1249,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Сертификация ISO</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Да</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1257,15 +1257,15 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Вид транспорта</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Авто/ ЖД</div>
                      </td>
                   </tr>
                   <tr valign='top'>
                      <td>
-                        <div className='contd' title=''>Грузовая единица, л</div>
+                        <div className='contd' title=''>Грузовая единица</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Коробка/ Паллет/ Контейнер/ FTL</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1273,7 +1273,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Согласованная надежность доставки (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 70 до 100</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1281,7 +1281,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Качество сырья</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Высокое/ Среднее/Низкое</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1289,7 +1289,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Условия поставки</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>CPT, FCA</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1297,7 +1297,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Начало цикла оплаты</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Заказ/ Отгрузка/ Получение/ Продажа</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1305,7 +1305,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Период оплаты, дн</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 0 до 90</div>
                      </td>
                   </tr>
 
@@ -1342,7 +1342,7 @@ export default function RinPostavok() {
                      <div className='contd' title='Наименование поставщика.  '>Название</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>ООО "ГЛАВСАХАРТОРГ"</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1350,7 +1350,7 @@ export default function RinPostavok() {
                      <div className='contd' title='Регион где находиться поставщик.  '>Регион расположения</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Челябинская обл. (338 км)</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1358,7 +1358,7 @@ export default function RinPostavok() {
                      <div className='contd' title='Качество поставляемых материалов'>Срок отгрузки </div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>3</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1366,7 +1366,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Свободные мощности (%)</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>80</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1374,7 +1374,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Сертификация ISO</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Да</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1382,15 +1382,15 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Вид транспорта</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Авто</div>
                   </td>
                </tr>
                <tr valign='top'>
                   <td>
-                     <div className='contd' title=''>Грузовая единица, л</div>
+                     <div className='contd' title=''>Грузовая единица</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Мешок/ паллет/ контейнер/ FTL</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1398,7 +1398,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Согласованная надежность доставки (%)</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>От 70 до 100</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1406,7 +1406,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Качество сырья</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Высокое/ Среднее/ Низкое</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1414,7 +1414,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Условия поставки</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>CPT, FCA</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1422,7 +1422,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Начало цикла оплаты</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Заказ/ Отгрузка/ Получение/ Продажа</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1430,7 +1430,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Период оплаты, дн</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>От 0 до 90</div>
                   </td>
                </tr>
 
@@ -1461,7 +1461,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Наименование поставщика.  '>Название</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>ООО УралОптТорг</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1469,7 +1469,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Регион где находиться поставщик.  '>Регион расположения</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Тюменская обл. (50 км)</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1477,7 +1477,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Качество поставляемых материалов'>Срок отгрузки </div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>2</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1485,7 +1485,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Свободные мощности (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>10</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1493,7 +1493,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Сертификация ISO</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Да</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1501,15 +1501,15 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Вид транспорта</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Авто</div>
                      </td>
                   </tr>
                   <tr valign='top'>
                      <td>
-                        <div className='contd' title=''>Грузовая единица, л</div>
+                        <div className='contd' title=''>Грузовая единица</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Мешок/ паллет/ контейнер/ FTL</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1517,7 +1517,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Согласованная надежность доставки (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 70 до 100</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1525,7 +1525,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Качество сырья</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Высокое/ Среднее/ Низкое</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1533,7 +1533,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Условия поставки</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>CPT, FCA</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1541,7 +1541,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Начало цикла оплаты</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Заказ/ Отгрузка/ Получение/ Продажа</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1549,7 +1549,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Период оплаты, дн</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 0 до 90</div>
                      </td>
                   </tr>
 
@@ -1580,7 +1580,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Наименование поставщика.  '>Название</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>ПродоптЕкб</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1588,7 +1588,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Регион где находиться поставщик.  '>Регион расположения</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Свердловская обл. (301 км)</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1596,7 +1596,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Качество поставляемых материалов'>Срок отгрузки </div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>3</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1604,7 +1604,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Свободные мощности (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>50</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1612,7 +1612,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Сертификация ISO</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Да</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1620,15 +1620,15 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Вид транспорта</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Авто/ ЖД</div>
                      </td>
                   </tr>
                   <tr valign='top'>
                      <td>
-                        <div className='contd' title=''>Грузовая единица, л</div>
+                        <div className='contd' title=''>Грузовая единица</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Мешок/ паллет/ контейнер/ FTL</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1636,7 +1636,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Согласованная надежность доставки (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 70 до 100</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1644,7 +1644,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Качество сырья</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Высокое/ Среднее/ Низкое</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1652,7 +1652,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Условия поставки</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>CPT, FCA</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1660,7 +1660,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Начало цикла оплаты</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Заказ/ Отгрузка/ Получение/ Продажа</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1668,7 +1668,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Период оплаты, дн</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 0 до 90</div>
                      </td>
                   </tr>
 
@@ -1705,7 +1705,7 @@ export default function RinPostavok() {
                      <div className='contd' title='Наименование поставщика.  '>Название</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Сервис-Пэт</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1713,7 +1713,7 @@ export default function RinPostavok() {
                      <div className='contd' title='Регион где находиться поставщик.  '>Регион расположения</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Новосибирская обл. (1200 км)</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1721,7 +1721,7 @@ export default function RinPostavok() {
                      <div className='contd' title='Качество поставляемых материалов'>Срок отгрузки </div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>4</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1729,7 +1729,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Свободные мощности (%)</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>25</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1737,7 +1737,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Сертификация ISO</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Нет</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1745,15 +1745,15 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Вид транспорта</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Авто/ ЖД/ Авиа</div>
                   </td>
                </tr>
                <tr valign='top'>
                   <td>
-                     <div className='contd' title=''>Грузовая единица, л</div>
+                     <div className='contd' title=''>Грузовая единица</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Коробка/Паллет/Контейнер/FTL</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1761,7 +1761,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Согласованная надежность доставки (%)</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>От 70 до 100</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1769,7 +1769,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Качество сырья</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Высокое/ Среднее/Низкое</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1777,7 +1777,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Условия поставки</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Инкотермс 2020</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1785,7 +1785,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Начало цикла оплаты</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>Заказ/ Отгрузка/ Получение/ Продажа</div>
                   </td>
                </tr>
                <tr valign='top'>
@@ -1793,7 +1793,7 @@ export default function RinPostavok() {
                      <div className='contd' title=''>Период оплаты, дн</div>
                   </td>
                   <td>
-                     <div className='contd'>value</div>
+                     <div className='contd'>От 0 до 90</div>
                   </td>
                </tr>
 
@@ -1824,7 +1824,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Наименование поставщика.  '>Название</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>ПармаPlast</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1832,7 +1832,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Регион где находиться поставщик.  '>Регион расположения</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Пермская обл. (700 км)</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1840,7 +1840,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Качество поставляемых материалов'>Срок отгрузки </div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>6</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1848,7 +1848,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Свободные мощности (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>10</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1856,7 +1856,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Сертификация ISO</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Нет</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1864,15 +1864,15 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Вид транспорта</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Авто/ ЖД/ Авиа</div>
                      </td>
                   </tr>
                   <tr valign='top'>
                      <td>
-                        <div className='contd' title=''>Грузовая единица, л</div>
+                        <div className='contd' title=''>Грузовая единица</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Коробка/Паллет/Контейнер/FTL</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1880,7 +1880,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Согласованная надежность доставки (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 70 до 100</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1888,7 +1888,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Качество сырья</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Высокое/ Среднее/Низкое</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1896,7 +1896,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Условия поставки</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Инкотермс 2020</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1904,7 +1904,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Начало цикла оплаты</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Заказ/ Отгрузка/ Получение/ Продажа</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1912,7 +1912,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Период оплаты, дн</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 0 до 90</div>
                      </td>
                   </tr>
 
@@ -1943,7 +1943,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Наименование поставщика.  '>Название</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Beixuan</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1951,7 +1951,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Регион где находиться поставщик.  '>Регион расположения</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Китай (4000 км)</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1959,7 +1959,7 @@ export default function RinPostavok() {
                         <div className='contd' title='Качество поставляемых материалов'>Срок отгрузки </div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>6</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1967,7 +1967,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Свободные мощности (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>20</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1975,7 +1975,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Сертификация ISO</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Да</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1983,15 +1983,15 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Вид транспорта</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Авто/ ЖД/ Авиа</div>
                      </td>
                   </tr>
                   <tr valign='top'>
                      <td>
-                        <div className='contd' title=''>Грузовая единица, л</div>
+                        <div className='contd' title=''>Грузовая единица</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Коробка/Паллет/Контейнер/FTL</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -1999,7 +1999,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Согласованная надежность доставки (%)</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 70 до 100</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -2007,7 +2007,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Качество сырья</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Высокое/ Среднее/Низкое</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -2015,7 +2015,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Условия поставки</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Инкотермс 2020</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -2023,7 +2023,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Начало цикла оплаты</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>Заказ/ Отгрузка/ Получение/ Продажа</div>
                      </td>
                   </tr>
                   <tr valign='top'>
@@ -2031,7 +2031,7 @@ export default function RinPostavok() {
                         <div className='contd' title=''>Период оплаты, дн</div>
                      </td>
                      <td>
-                        <div className='contd'>value</div>
+                        <div className='contd'>От 0 до 90</div>
                      </td>
                   </tr>
 
