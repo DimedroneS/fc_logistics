@@ -1,4 +1,4 @@
-import { Button, Modal } from '@mui/material';
+import { Checkbox} from '@mui/material'//import { Button, Modal } from '@mui/material';
 import React, {useState,Component} from 'react'
 import { Link } from 'react-router-dom';
 
@@ -133,51 +133,155 @@ export default function Prognoz () {
                                 <div id="content-1">
                         <div className='cont1'>  
                         
-                        <fieldset className='fieldtd'><legend>Прогнозирование товарных запасов</legend>
-                            <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            
-                            </table>
-                        </fieldset>
+                        <fieldset className='fieldtd'><legend>Прогнозирование товарных спросов</legend>
+                       <table cellSpacing={0} cellPadding={0} colls={4} border={0} >
+                       <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Продукция</div>
+                                           </td>
+                                           <td>
+                                           <div >Спрос, шт</div> 
+                                           </td>
+                                           <td>
+                                           <div >  Изменение, %</div> 
+                                           </td>
+                                           <td>
+                                           <div >Прогноз, шт</div> 
+                                           </td>
+                                           </tr>
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт без наполнителя, 0.3 л</div>
+                                           </td>
+                                           <td>
+                                           <div>66500</div> 
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="0%"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div>66500</div> 
+                                           </td>
+                                           </tr>
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт персик, 0.3 л</div>
+                                           </td>
+                                           <td>
+                                           <div>42200</div> 
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="0%"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div>42200</div> 
+                                           </td>
+                                           </tr>
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт клубника, 0.3 л</div>
+                                           </td>
+                                           <td>
+                                           <div>90700</div> 
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="10%"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div>99770</div> 
+                                           </td>
+                                           </tr>
+                                          
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт ананас, 0.3 л</div>
+                                           </td>
+                                           <td>
+                                           <div>113500</div> 
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="5%"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div>119175</div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт без наполнителя, 1 л</div>
+                                           </td>
+                                           <td>
+                                           <div>51000</div> 
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="0%"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div>51000</div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт персик, 1 л</div>
+                                           </td>
+                                           <td>
+                                           <div>15300</div> 
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="-5%"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div>14535</div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт клубника, 1 л</div>
+                                           </td>
+                                           <td>
+                                           <div>34200</div> 
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="0%"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div>34200</div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт ананас, 1 л</div>
+                                           </td>
+                                           <td>
+                                           <div>11900</div> 
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="0%"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div>11900</div> 
+                                           </td>
+                                           </tr>
+
+
+
+                                           <tr valign='top'>
+                 <td>
+                   <div  title=''></div>
+                 </td>
+                 <td>
+                   <div >
+                     <button className="talkbut">Ок</button>
+                   </div>
+                 </td>
+               </tr>
+                                           
+                           </table>
+                       </fieldset>
 
 
                         </div> 

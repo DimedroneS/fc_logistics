@@ -110,7 +110,7 @@ export default function produkt() {
             </div>
             </div>
             <div className='rightpanel'><div className='cappanel'> 
-            Решение <span className='nameround'> RoundName </span>
+            Решение <span className='nameround'> Раунд 1 </span>
            
            </div >
 
@@ -133,51 +133,117 @@ export default function produkt() {
                        <div className='cont1'>  
                        
                        <fieldset className='fieldtd'><legend>Склад готовой продукции</legend>
-                           <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
+                       <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
                                            <tr valign='top' >
                                            <td>
-                                           <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
+                                           <Link to="/HelpPage" className='helplink'><div className='contd'>Вид складирования </div> </Link>
                                            </td>
                                            <td>
-                                           <div className='contd'>value</div> 
+                                           <select className='modallistD'>
+                                                            <option>Штабелирование</option>
+                                                            <option>Мобильные стеллажи</option>
+                                                            <option>Гравитационные стеллажи</option>
+                                                            <option>Широкопроходные стеллажи</option>
+                                                            <option>Узкопроходные стеллажи</option>
+                                                            <option>Набивные стеллажи</option>
+                                            </select>
                                            </td>
                                            </tr>
                                            <tr valign='top' >
                                            <td>
-                                           <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
+                                           <Link to="/HelpPage" className='helplink'><div className='contd' >Число рабочих смен</div> </Link>
                                            </td>
                                            <td>
-                                           <div className='contd'>value</div> 
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="1~3"></input></div> 
                                            </td>
                                            </tr>
                                            <tr valign='top' >
                                            <td>
-                                           <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
+                                           <Link to="/HelpPage" className='helplink'><div className='contd' >Время приемки, дн.</div> </Link>
                                            </td>
                                            <td>
-                                           <div className='contd'>value</div> 
+                                          <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="1~10"></input></div>
                                            </td>
                                            </tr>
                                            <tr valign='top' >
                                            <td>
-                                           <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
+                                           <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Контроль сырья</div> </Link>
                                            </td>
                                            <td>
-                                           <div className='contd'>value</div> 
+                                           <select className='modallistD'>
+                                                            <option>Да</option>
+                                                            <option>Нет</option>
+          
+                                            </select>
                                            </td>
                                            </tr>
                                            <tr valign='top' >
                                            <td>
-                                           <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
+                                           <Link to="/HelpPage" className='helplink'><div className='contd'>Тип склада</div> </Link>
                                            </td>
                                            <td>
-                                           <div className='contd'>value</div> 
+                                           <select className='modallistD'>
+                                                            <option>Автоматизированный</option>
+                                                            <option>Механизированный</option>
+                                                            <option>Не механизированный</option>
+                                            </select>
                                            </td>
                                            </tr>
+                                           <tr valign='top'>
+                 <td>
+                   <div className='contd' title=''></div>
+                 </td>
+                 <td>
+                   <div className='contd'>
+                     <button className="talkbut">Сохранить</button>
+                   </div>
+                 </td>
+               </tr>
                                            
                            </table>
                        </fieldset>
 
+
+                       <fieldset className='fieldtd'><legend>Число постоянных работников на смене</legend>
+                       <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
+                                           <tr valign='top' >
+                                           <td>
+                                           <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Число работников (1 смена)</div> </Link>
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="0~100"></input></div> 
+                                           </td>
+                                           </tr>
+                                           <tr valign='top' >
+                                           <td>
+                                           <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Число работников (2 смена)</div> </Link>
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="0~100"></input></div> 
+                                           </td>
+                                           </tr>
+                                           <tr valign='top' >
+                                           <td>
+                                           <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Число работников (3 смена)</div> </Link>
+                                           </td>
+                                           <td>
+                                          <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="0~100"></input></div>
+                                           </td>
+                                           </tr>
+                                          
+                                           <tr valign='top'>
+                 <td>
+                   <div className='contd' title=''></div>
+                 </td>
+                 <td>
+                   <div className='contd'>
+                     <button className="talkbut">Сохранить</button>
+                   </div>
+                 </td>
+               </tr>
+                                           
+                           </table>
+                       </fieldset>
 
                        </div> 
                        </div> 

@@ -105,19 +105,21 @@ footer {
     vertical-align: middle;
     justify-content: center;
     align-items: center;
+    /* Стили для кнопки */
   }
 
- .button:hover {
-    background-color: #0d8bf0;
-    text-align:center;
-    transform: scale(1.1);
-  }
+ 
 
   .button.active {
     background-color: #0d8bf0;
     /* Стили для активной кнопки */
   }
 
+  .button:hover {
+    background-color: #0d8bf0;
+    text-align:center;
+    transform: scale(1.1);
+  }
 
   .active-link {
     text-align:center;
@@ -572,4 +574,69 @@ footer {
   overflow-y: hidden;
   width: 580;
   height: 400;
+}
+
+.modallistD{
+  background-color: #96d0ff;
+  font-size: 14px;
+  padding: 3px 2px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.company{
+
+  position: absolute;
+    background-color: #afcfff;
+    width: 1240px;
+    height: 770px;
+    background-position: center, center;
+    border: 20px solid #4baeff;
+}
+
+.finance{
+  font-size: 24px;
+}
+
+.fin1{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+
+.login-form {
+  width: 640px;
+    height: 370px;
+  background-color: #96d0ff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.form-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-field button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
 }

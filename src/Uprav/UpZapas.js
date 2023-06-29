@@ -132,51 +132,106 @@ export default function UpZapas () {
                                   <div id="content-1">
                           <div className='cont1'>  
                           
-                          <fieldset className='fieldtd'><legend>Управление запасами</legend>
-                              <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
-                                              <tr valign='top' >
-                                              <td>
-                                              <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
-                                              </td>
-                                              <td>
-                                              <div className='contd'>value</div> 
-                                              </td>
-                                              </tr>
-                                              <tr valign='top' >
-                                              <td>
-                                              <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
-                                              </td>
-                                              <td>
-                                              <div className='contd'>value</div> 
-                                              </td>
-                                              </tr>
-                                              <tr valign='top' >
-                                              <td>
-                                              <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
-                                              </td>
-                                              <td>
-                                              <div className='contd'>value</div> 
-                                              </td>
-                                              </tr>
-                                              <tr valign='top' >
-                                              <td>
-                                              <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
-                                              </td>
-                                              <td>
-                                              <div className='contd'>value</div> 
-                                              </td>
-                                              </tr>
-                                              <tr valign='top' >
-                                              <td>
-                                              <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
-                                              </td>
-                                              <td>
-                                              <div className='contd'>value</div> 
-                                              </td>
-                                              </tr>
-                                              
-                              </table>
-                          </fieldset>
+                          <fieldset className='fieldtd'><legend>Склад сырья</legend>
+                           <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
+
+                           <tr valign='top' >
+                                           <td>
+                                          <div className='contd'>Наименование</div>
+                                           </td>
+                                           <td>
+                                           <div className='contd'>Страховой запас</div> 
+                                           </td>
+                                           <td>
+                                           <div >Размер партии</div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                          <div className='contd'>Упаковка</div>
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div ><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           </tr>
+                                           <tr valign='top' >
+                                           <td>
+                                          <div className='contd'>Молоко сырое</div>
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div ><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                          <div className='contd'>Молоко сухое</div>
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div ><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                          <div className='contd'>Вкусовые добавки</div>
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div ><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                          <div className='contd'>Сахар</div>
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                          <div className='contd'>PET</div>
+                                           </td>
+                                           <td>
+                                           <div className='contd'><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           <td>
+                                           <div ><input className='modalinp' type="text" id="textInput" placeholder="1~10000"></input></div> 
+                                           </td>
+                                           </tr>
+
+                                           
+                                           <tr valign='top'>
+                 <td>
+                   <div className='contd' title=''></div>
+                 </td>
+                 <td>
+                   <div className='contd'>
+                     <button className="talkbut">Сохранить</button>
+                   </div>
+                 </td>
+               </tr>
+                                           
+                           </table>
+                       </fieldset>
   
   
                           </div> 

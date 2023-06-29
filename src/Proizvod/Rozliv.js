@@ -1,4 +1,5 @@
-import { Button, Modal } from '@mui/material';
+import { Checkbox} from '@mui/material'
+//import { Button, Modal } from '@mui/material';
 import React, {useState,Component} from 'react'
 import { Link } from 'react-router-dom';
 
@@ -133,52 +134,130 @@ export default function Rozliv () {
                                 <div id="content-1">
                         <div className='cont1'>  
                         
-                        <fieldset className='fieldtd'><legend>Розлив</legend>
-                            <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title='Наименование поставщика. Нажмите для справки.'>Название</div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title='Регион где находиться поставщик. Нажмите для справки.'>Регион расположения</div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title= 'Качество поставляемых материалов'>Срок отгрузки </div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd' title=''>Свободные мощности (%)</div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            <tr valign='top' >
-                                            <td>
-                                            <Link to="/HelpPage" className='helplink'><div className='contd'title=''>Сертификация</div> </Link>
-                                            </td>
-                                            <td>
-                                            <div className='contd'>value</div> 
-                                            </td>
-                                            </tr>
-                                            
-                            </table>
-                        </fieldset>
+                        <fieldset className='fieldtd'><legend>Линия розлива</legend>
+                       <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Выберите количество голов розлива</div>
+                                           </td>
+                                           <td>
+                                           <select className='modallistD'>
+                                                            <option>4</option>
+                                                            <option>6</option>
+                                                            <option>8</option>
+                                                            <option>10</option>
+                                                            <option>12</option>
+          
+                                            </select>
+                                           </td>
+                                           </tr>
+                                          
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Число смен</div>
+                                           </td>
+                                           <td>
+                                           <select className='modallistD'>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                      
+          
+                                            </select>
+                                           </td>
+                                           </tr>
 
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Профилактическое обслуживание</div>
+                                           </td>
+                                           <td>
+                                           <div className='checkb'><Checkbox defaultChecked></Checkbox></div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Увеличение скорости работы линии</div>
+                                           </td>
+                                           <td>
+                                           <div className='checkb'><Checkbox></Checkbox></div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Быстрая переналадка</div>
+                                           </td>
+                                           <td>
+                                           <div className='checkb'><Checkbox></Checkbox></div> 
+                                           </td>
+                                           </tr>
+
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Контроль сырья</div>
+                                           </td>
+                                           <td>
+                                           <div className='checkb'><Checkbox defaultChecked></Checkbox></div> 
+                                           </td>
+                                           </tr>
+                                          
+                                           <tr valign='top'>
+                 <td>
+                   <div className='contd' title=''></div>
+                 </td>
+                 <td>
+                   <div className='contd'>
+                     <button className="talkbut">Сохранить</button>
+                   </div>
+                 </td>
+               </tr>
+                                           
+                           </table>
+                       </fieldset>
+
+
+                       <fieldset className='fieldtd'><legend>Распределение продукции по линии розлива</legend>
+                       <table cellSpacing={0} cellPadding={0} colls={3} border={0} >
+                       <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Продукция</div>
+                                           </td>
+                                           <td>
+                                           <div className='checkb'>Линия розлива</div> 
+                                           </td>
+                                           </tr>
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт в упаковке PET бутылках</div>
+                                           </td>
+                                           <td>
+                                           <div className='checkb'><Checkbox defaultChecked></Checkbox></div> 
+                                           </td>
+                                           </tr>
+                                           <tr valign='top' >
+                                           <td>
+                                           <div className='contd'>Йогурт в мягкой упаковке</div>
+                                           </td>
+                                           <td>
+                                           <div className='checkb'><Checkbox defaultChecked></Checkbox></div> 
+                                           </td>
+                                           </tr>
+                                          
+                                           <tr valign='top'>
+                 <td>
+                   <div className='contd' title=''></div>
+                 </td>
+                 <td>
+                   <div className='contd'>
+                     <button className="talkbut">Сохранить</button>
+                   </div>
+                 </td>
+               </tr>
+                                           
+                           </table>
+                       </fieldset>
 
                         </div> 
                         </div> 

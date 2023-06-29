@@ -2667,12 +2667,12 @@ export default function RinPostavok() {
    <>
      <div><div className='panelcontent'>
      <div className='leftpanel'> <div className='cappanel'>
-                Панель показателей <span className='nameround'> RoundName </span>
-             </div>
-                <div className='infopanel'>
-                   <table cellSpacing={0} cellPadding={0} colls={6} border={0}>
+     Панель показателей <span className='nameround'> Раунд 0 </span>
+            </div >
+            <div className='infopanel'>
+                <table cellSpacing={0} cellPadding={0} colls={6} border={0} >
 
-                   <tbody>
+                    <tbody>
                         
                         <tr valign='top' >
 
@@ -2698,10 +2698,10 @@ export default function RinPostavok() {
                                <div className='sourcetd'></div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div> 
+                               <div className='sourcetd'>-4,0 %</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div> 
+                               <div className='sourcetd'>0,2 %</div> 
                             </td>
                         </tr>
                         <tr valign='top' >
@@ -2713,10 +2713,10 @@ export default function RinPostavok() {
                                <div className='sourcetd'></div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div> 
+                               <div className='sourcetd'>2,9 %</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div> 
+                               <div className='sourcetd'>2,9 %</div> 
                             </td>
                         </tr>
                         <tr valign='top' >
@@ -2728,10 +2728,10 @@ export default function RinPostavok() {
                                <div className='sourcetd'></div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div> 
+                               <div className='sourcetd'>37,0 %</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div> 
+                               <div className='sourcetd'>33,0 %</div> 
                             </td>
                         </tr>
                         <tr valign='top' >
@@ -2743,35 +2743,20 @@ export default function RinPostavok() {
                                <div className='sourcetd'></div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div> 
+                               <div className='sourcetd'>92,1 %</div> 
                             </td>
                             <td>
-                               <div className='sourcetd'>number</div> 
+                               <div className='sourcetd'>92,4 %</div> 
                             </td>
                         </tr>
-                        <tr>
-                        <div className='cappanel2'> Отчет </div >
-                        </tr>
-                        <tr>
-                            <div className='separattd'> <a href="URL">Поставщик</a></div>
-                        </tr>
-                        <tr>
-                            <div className='linktd'> <a href="URL">Компоненты</a></div>
-                        </tr>
-                        <tr>
-                            <div className='linktd'> <a href="URL">Финансы</a></div>
-                        </tr>
-                        <tr>
-                           
-                           <div className='linktd'> <a href='fc_logistics\src\Page\Test.js' target="blank">Анализ</a></div>
-                        </tr>
+                        
                     </tbody>
                 </table>
             </div>
      </div>
      <div className='rightpanel'>
      <div className='cappanel'>
-                Решение <span className='nameround'> RoundName </span>
+                Решение <span className='nameround'> Раунд 1 </span>
                 </div>
 
                 <div className='tabsbuttonlayer'>
